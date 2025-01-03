@@ -1,0 +1,4 @@
+{
+    "path": ["./target/file1.php", "./target/file2.php"],
+    "url": "https://raw.githubusercontent.com/eclibesec/hastalavista/refs/heads/main/index.php"
+}
