@@ -8,61 +8,68 @@
 set_time_limit(0);
 $interval = 1; // Waktu jeda antar pengecekan dalam detik
 $jsonFilePath = './config.json';
+$logFilePath = './monitor.log'; // Lokasi file log
 
+// Fungsi untuk membaca konfigurasi dari config.json
 function getConfig($jsonFilePath) {
     if (!file_exists($jsonFilePath)) {
-        echo "File config json nya ga ada cok $jsonFilePath\n";
+        logMessage("File config.json tidak ditemukan: $jsonFilePath");
         return null;
     }
+
     $jsonContent = file_get_contents($jsonFilePath);
     $data = json_decode($jsonContent, true);
 
     if (json_last_error() !== JSON_ERROR_NONE) {
-        echo "Error: format nya benerin dulu - " . json_last_error_msg() . "\n";
+        logMessage("Error pada format config.json: " . json_last_error_msg());
         return null;
     }
 
     return $data;
 }
 
+// Fungsi untuk memulihkan file menggunakan wget
 function checkAndRestoreFile($filePath, $url) {
-    // Unduh konten file dari URL
-    $remoteContent = file_get_contents($url);
+    logMessage("Memeriksa file: $filePath");
 
-    if ($remoteContent === false) {
-        echo "Gagal mengunduh file dari $url\n";
-        return;
-    }
-
-    // Jika file tidak ada, pulihkan dari URL
+    // Jika file tidak ada, unduh dengan wget
     if (!file_exists($filePath)) {
-        if (!file_exists(dirname($filePath))) {
-            mkdir(dirname($filePath), 0755, true);
-        }
-        if (file_put_contents($filePath, $remoteContent)) {
-            echo "File $filePath hilang, sudah dipulihkan dari $url\n";
+        logMessage("File $filePath tidak ditemukan. Mengunduh dari $url...");
+        $command = "wget -q -O " . escapeshellarg($filePath) . " " . escapeshellarg($url);
+        exec($command, $output, $return_var);
+
+        if ($return_var === 0) {
+            logMessage("File $filePath berhasil dipulihkan.");
         } else {
-            echo "Gagal memulihkan file $filePath dari $url\n";
+            logMessage("Gagal mengunduh file dari $url.");
         }
     } else {
         // Jika file ada, cek apakah kontennya berubah
-        $currentContent = file_get_contents($filePath);
+        $currentHash = md5_file($filePath);
+        $command = "wget -q -O - " . escapeshellarg($url) . " | md5sum";
+        $remoteHash = trim(shell_exec($command));
 
-        if ($remoteContent !== $currentContent) {
-            // Pulihkan jika konten berubah
-            if (file_put_contents($filePath, $remoteContent)) {
-                echo "Konten file $filePath berubah, sudah dipulihkan dari $url\n";
-            } else {
-                echo "Gagal memulihkan konten file: $filePath dari $url\n";
-            }
+        if ($currentHash !== $remoteHash) {
+            logMessage("Konten file $filePath berubah. Memulihkan...");
+            exec("wget -q -O " . escapeshellarg($filePath) . " " . escapeshellarg($url));
+            logMessage("Konten file $filePath berhasil dipulihkan.");
+        } else {
+            logMessage("File $filePath dalam kondisi baik.");
         }
     }
 }
 
-$config = getConfig($jsonFilePath);
+// Fungsi untuk mencatat log aktivitas
+function logMessage($message) {
+    global $logFilePath;
+    $logEntry = "[" . date('Y-m-d H:i:s') . "] " . $message . PHP_EOL;
+    file_put_contents($logFilePath, $logEntry, FILE_APPEND);
+}
 
+// Mulai eksekusi
+$config = getConfig($jsonFilePath);
 if (!$config) {
-    echo "Konfigurasi tidak valid.\n";
+    logMessage("Konfigurasi tidak valid. Program dihentikan.");
     exit;
 }
 
@@ -70,9 +77,11 @@ $filesToMonitor = isset($config['path']) ? $config['path'] : [];
 $url = isset($config['url']) ? $config['url'] : null;
 
 if (empty($filesToMonitor) || !$url) {
-    echo "File yang diawasi atau URL tidak diatur dalam config.json.\n";
+    logMessage("File yang diawasi atau URL tidak diatur dalam config.json.");
     exit;
 }
+
+logMessage("Memulai pemantauan file...");
 
 while (true) {
     foreach ($filesToMonitor as $file) {
