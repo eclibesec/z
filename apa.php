@@ -65,7 +65,8 @@ if (isset($_GET['x46'])) {
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
     <meta property="og:type" content="product" />
     <meta property="og:description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
-    <meta property="og:image" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
+    <meta property="og:image" content="https://takenupload.com/67ee734f3a944
+" />
     <meta property="og:image:width" content="840" />
     <meta property="og:image:height" content="480" />
     <meta property="product:price:amount" content="888.00" />
@@ -74,11 +75,15 @@ if (isset($_GET['x46'])) {
     <meta itemprop="name" content="<?php echo htmlspecialchars($BRAND); ?> ♙ JASA OTP TERBARU DAN TERPERCAYA HANYA DI SINI" />
     <meta itemprop="url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
     <meta itemprop="description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
-    <meta itemprop="thumbnailUrl" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
-    <link rel="image_src" href="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
-    <meta itemprop="image" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
+    <meta itemprop="thumbnailUrl" content="https://takenupload.com/67ee734f3a944
+" />
+    <link rel="image_src" href="https://takenupload.com/67ee734f3a944
+" />
+    <meta itemprop="image" content="https://takenupload.com/67ee734f3a944
+" />
     <meta name="twitter:title" content="<?php echo htmlspecialchars($BRAND); ?> ♙ JASA OTP TERBARU DAN TERPERCAYA HANYA DI SINI" />
-    <meta name="twitter:image" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
+    <meta name="twitter:image" content="https://takenupload.com/67ee734f3a944
+" />
     <meta name="twitter:url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
@@ -571,13 +576,15 @@ if (isset($_GET['x46'])) {
           "firstName": "Slot",
           "lastName": "Gacor",
           "eligibleForMarketingDiscount": false,
-          "avatarUrl": "https://wnrstore.com/assets-landing/images/moc-1-2.png?format=300w",
+          "avatarUrl": "https://takenupload.com/67ee734f3a944
+?format=300w",
           "bio": "",
           "roles": {},
           "email": "rofikowanto79@gmail.com",
           "createdOn": 1707449411357,
           "marketingId": "8a89b7bf-913e-404f-8ced-d1dde4b91061",
-          "avatarAssetUrl": "https://wnrstore.com/assets-landing/images/moc-1-2.png?format=300w",
+          "avatarAssetUrl": "https://takenupload.com/67ee734f3a944
+?format=300w",
           "pseudonymAccount": false,
           "preferredLocale": "en-US"
         },
@@ -595,7 +602,8 @@ if (isset($_GET['x46'])) {
         "accessPermissions": [1310, 1701, 1225, 1414, 1216, 1234, 1910, 1421, 1700, 1516, 1513, 1517, 1415, 1422, 1233, 1932, 1413, 1211, 1229, 1420, 1110, 1223, 1230, 1212, 1228, 12, 1210, 1512, 1111, 1226, 1418, 1214, 1419, 1912, 1112, 1410, 1224, 1611, 1921, 1219, 1220, 1311, 1423, 1515, 1612, 1213, 1411, 0, 1416, 1417, 15, 11, 13, 1412, 1930, 1931, 1911, 1514, 1610, 14, 1218, 1511, 1810, 1, 1510, 1221, 2066, 18, 1920, 1215, 1217],
         "memberAccountNames": {
           "65c59c43aeb76a63df61000a": {
-            "avatarUrl": "https://wnrstore.com/assets-landing/images/moc-1-2.png?format=300w",
+            "avatarUrl": "https://takenupload.com/67ee734f3a944
+?format=300w",
             "bio": "",
             "displayName": "<?php echo htmlspecialchars($BRAND); ?> "
           }
@@ -680,7 +688,8 @@ if (isset($_GET['x46'])) {
     <script type="application/ld+json">
       {
         "name": "<?php echo htmlspecialchars($BRAND); ?> ♙ JASA OTP TERBARU DAN TERPERCAYA HANYA DI SINI \u2014 <?php echo htmlspecialchars($BRAND); ?>",
-        "image": "https://wnrstore.com/assets-landing/images/moc-1-2.png",
+        "image": "https://takenupload.com/67ee734f3a944
+",
         "description": "<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat",
         "brand": "<?php echo htmlspecialchars($BRAND); ?>",
         "offers": {
@@ -1580,8 +1589,12 @@ if (isset($_GET['x46'])) {
                     <section class="ProductItem-summary" data-controller="ProductGallery">
                       <section aria-label="Gallery" class="ProductItem-gallery" data-product-gallery="container">
                         <div class="ProductItem-gallery-slides" data-animation-role="image" data-product-gallery="slides">
-                          <div class="ProductItem-gallery-slides-item" data-slide-index="1" data-image-id="65fd0fd62438744c9a05c86b" data-controller="ImageZoom" data-slide-url="zeus" data-product-gallery="slides-item" data-test="pdp-gallery-slide"><img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://wnrstore.com/assets-landing/images/moc-1-2.png" data-image="https://wnrstore.com/assets-landing/images/moc-1-2.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo htmlspecialchars($BRAND); ?>" elementtiming="nbf-products-gallery" /><span id="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" style="display: none;"> Image 1 of </span>
-                            <div class="product-image-zoom-duplicate" aria-hidden="true"><img data-load="false" data-src="https://wnrstore.com/assets-landing/images/moc-1-2.png" data-image="https://wnrstore.com/assets-landing/images/moc-1-2.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo htmlspecialchars($BRAND); ?>" elementtiming="nbf-products-gallery-zoom" /></div>
+                          <div class="ProductItem-gallery-slides-item" data-slide-index="1" data-image-id="65fd0fd62438744c9a05c86b" data-controller="ImageZoom" data-slide-url="zeus" data-product-gallery="slides-item" data-test="pdp-gallery-slide"><img aria-describedby="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" class="ProductItem-gallery-slides-item-1" data-load="false" data-src="https://takenupload.com/67ee734f3a944
+" data-image="https://takenupload.com/67ee734f3a944
+" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo htmlspecialchars($BRAND); ?>" elementtiming="nbf-products-gallery" /><span id="ProductItem-gallery-slides-item-1-index-65fd0fd62438744c9a05c86b" style="display: none;"> Image 1 of </span>
+                            <div class="product-image-zoom-duplicate" aria-hidden="true"><img data-load="false" data-src="https://takenupload.com/67ee734f3a944
+" data-image="https://takenupload.com/67ee734f3a944
+" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo htmlspecialchars($BRAND); ?>" elementtiming="nbf-products-gallery-zoom" /></div>
                           </div>
                           <div class="gallery-lightbox-outer-wrapper" data-use-image-loader="true" data-controller="Lightbox">
                             <div class="gallery-lightbox " data-section-theme>
@@ -1597,7 +1610,9 @@ if (isset($_GET['x46'])) {
                                   <figure class="gallery-lightbox-item" data-slide-url="zeus">
                                     <div class="gallery-lightbox-item-wrapper">
                                       <div class="gallery-lightbox-item-src">
-                                        <div class="gallery-lightbox-item-img content-fit"><img data-src="https://wnrstore.com/assets-landing/images/moc-1-2.png" data-image="https://wnrstore.com/assets-landing/images/moc-1-2.png" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo htmlspecialchars($BRAND); ?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
+                                        <div class="gallery-lightbox-item-img content-fit"><img data-src="https://takenupload.com/67ee734f3a944
+" data-image="https://takenupload.com/67ee734f3a944
+" data-image-dimensions="840x480" data-image-focal-point="0.5,0.5" alt="<?php echo htmlspecialchars($BRAND); ?>" data-load="false" elementtiming="nbf-product-lightbox" /></div>
                                       </div>
                                     </div>
                                   </figure>
