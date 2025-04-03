@@ -64,7 +64,7 @@ if (isset($_GET['x46'])) {
     <meta property="og:title" content="<?php echo htmlspecialchars($BRAND); ?> ♙ JASA OTP TERBARU DAN TERPERCAYA HANYA DI SINI" />
     <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
     <meta property="og:type" content="product" />
-    <meta property="og:description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan pencatatan kehadiran yang lebih akurat dan efisien, mengurangi kesalahan manual dalam proses absensi." />
+    <meta property="og:description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
     <meta property="og:image" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
     <meta property="og:image:width" content="840" />
     <meta property="og:image:height" content="480" />
@@ -73,7 +73,7 @@ if (isset($_GET['x46'])) {
     <meta property="product:availability" content="instock" />
     <meta itemprop="name" content="<?php echo htmlspecialchars($BRAND); ?> ♙ JASA OTP TERBARU DAN TERPERCAYA HANYA DI SINI" />
     <meta itemprop="url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
-    <meta itemprop="description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan pencatatan kehadiran yang lebih akurat dan efisien, mengurangi kesalahan manual dalam proses absensi." />
+    <meta itemprop="description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
     <meta itemprop="thumbnailUrl" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
     <link rel="image_src" href="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
     <meta itemprop="image" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
@@ -81,8 +81,8 @@ if (isset($_GET['x46'])) {
     <meta name="twitter:image" content="https://wnrstore.com/assets-landing/images/moc-1-2.png" />
     <meta name="twitter:url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan pencatatan kehadiran yang lebih akurat dan efisien, mengurangi kesalahan manual dalam proses absensi." />
-    <meta name="description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan pencatatan kehadiran yang lebih akurat dan efisien, mengurangi kesalahan manual dalam proses absensi." />
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
+    <meta name="description" content="<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat" />
     <link rel="preconnect" href="https://images.squarespace-cdn.com">
     <script type="text/javascript" src="//use.typekit.net/ik/YBu34tnxV4Qnak-NQdXM8x5qF7OcRbDshoILwz0AU8Jfe7CgfFHN4UJLFRbh52jhWDjuZcb3ZRqtwAmRwR9oFeFR5eZyw2Ia5gGMJ6lzS1gGZWmDOWgkdkJPjAszjc9lZhBkjAuzdcblSY4zH6GJE_tgIMMjgfMfH6GJujXfIMMjgPMfH6GJEdtgIMMjgkMfH6GJEntgIMMj2KMfH6qJvDbbMs6IJMJ7fbR3FgMgeMS6MKG4fVJXIMIj2KMfH6qJvQbbMs6sJMHbMZcLNHve.js"></script>
     <script type="text/javascript">
@@ -681,7 +681,7 @@ if (isset($_GET['x46'])) {
       {
         "name": "<?php echo htmlspecialchars($BRAND); ?> ♙ JASA OTP TERBARU DAN TERPERCAYA HANYA DI SINI \u2014 <?php echo htmlspecialchars($BRAND); ?>",
         "image": "https://wnrstore.com/assets-landing/images/moc-1-2.png",
-        "description": "<?php echo htmlspecialchars($BRAND); ?> merupakan pencatatan kehadiran yang lebih akurat dan efisien, mengurangi kesalahan manual dalam proses absensi.",
+        "description": "<?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat",
         "brand": "<?php echo htmlspecialchars($BRAND); ?>",
         "offers": {
           "price": 888.00,
@@ -1645,7 +1645,7 @@ if (isset($_GET['x46'])) {
                             <div class="pdp-overlay"></div>
                           </div>
                           <div class="ProductItem-details-excerpt" data-content-field="excerpt">
-                            <p><?php echo htmlspecialchars($BRAND); ?> merupakan pencatatan kehadiran yang lebih akurat dan efisien, mengurangi kesalahan manual dalam proses absensi.</p>
+                            <p><?php echo htmlspecialchars($BRAND); ?> merupakan layanan jasa otp untuk berbagai aplikasi dengan sangat cepat seperti whatsapp , telegram dengan proses sangatcepat</p>
                           <div class="product-quantity-input" data-item-id="65fd0fc7db01f63c712f258e" data-animation-role="content">
                             <div class="quantity-label">Quantity:</div><input aria-label="Quantity" size="4" max="9999" min="1" value="1" type="number" step="1"></input>
                           </div>
